@@ -1,0 +1,175 @@
+.shopped_text {
+    padding-top: 22px;
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.addAddress {
+    color: #ce6922;
+    font-size: 17px;
+}
+
+.address_tool {
+    font-size: 14px;
+    color: #666;
+}
+
+.address_text {
+    color: #a699b3;
+    font-size: 14px;
+    padding-right: 30px
+}
+
+.address_txt {
+    width: 335px;
+    height: 33px;
+}
+
+.adress_take {
+    color: #999;
+    font-size: 14px;
+    padding-right: 43px
+}
+
+.addreCheck {
+    margin-top: 20px
+}
+
+.addre_ysk {
+    width: 138px;
+    height: 33px;
+}
+
+.address_shdz {
+    width: 560px;
+    height: 35px;
+    border: 1px solid #ddd;
+}
+
+.address_phone {
+    color: #a699b3;
+    font-size: 14px;
+    padding-right: 43px
+}
+
+.adress_inp {
+    width: 335px;
+    height: 33px;
+}
+
+.address_Iphone {
+    color: #a699b3;
+    font-size: 14px;
+    padding-right: 43px
+}
+
+.address_ch {
+    width: 15px;
+    height: 15px;
+    margin-top: 18px;
+}
+
+.address_mr {
+    color: #a699b3;
+    font-size: 14px;
+}
+
+.adress_res {
+    width: 335px;
+    height: 35px;
+    background-color: #b31e22;
+    color: #fff;
+    margin-left: 108px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.address-save {
+    font-size: 18px;
+    color: #B31E22;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.table {
+    width: 90%;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.table tr {
+    text-align: center;
+}
+
+#table td {
+    line-height: 30px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.table button {
+    background-color: #eeeeee;
+    color: #999999;
+    border: 1px solid #999999;
+}
+
+#btn1 {
+    background-color: #ffd6cc;
+    color: #ff3300;
+    border: 1px solid #ff3300;
+}
+
+.contentleft a {
+    text-decoration: none;
+    color: black;
+}
+
+.distpicker select:nth-child(1) {
+    margin-left: 80px;
+}
+
+.table button.active {
+    background: #b31e22;
+    color: #fff;
+    border: 1px solid #b31e22;
+}
+
+.item-btn {
+    width: 70px;
+    border-radius: 5px;
+}
+
+h1 {
+    position: absolute;
+    left: -999999px;
+    top: 0;
+}
+
+.goback {
+    width: 36px;
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+}
+
+.goback li {
+    width: 36px;
+    height: 35px;
+    border-radius: 5px;
+    background: #7a6e6e;
+    margin-top: 4px;
+}
+
+.goback li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}

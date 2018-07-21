@@ -1,0 +1,305 @@
+body {
+    color: #333;
+    font-size: 14px;
+}
+
+.header {
+    width: 100%;
+    height: 35px;
+    background: #f5f5f5;
+}
+
+.h_content {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.h_content1 p {
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+.h_content2 a {
+    margin-left: 30px;
+}
+
+.h_content2 a:hover {
+    color: #b31e22
+}
+
+.h_content1 p a,
+.h_content2 a {
+    line-height: 35px;
+    color: #666;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.h_content1 .ud {
+    color: #b31e22;
+    font-size: 14px;
+}
+
+.a {
+    color: #b31e22 !important;
+}
+
+.aa a:hover {
+    color: #b31e22 !important;
+}
+
+
+/* 第一种 */
+
+
+/* .ssl {
+    width: 100%;
+    height: 100px;
+}
+
+.s_content1 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.s_content1_1,
+.s_content1_2 {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.s_content1_2 {
+    position: relative;
+}
+
+.s_content1_2 a {
+    color: #999;
+    margin: auto;
+    height: 36px;
+    line-height: 34px;
+    display: block;
+    position: absolute;
+    padding: 0 30px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.ys {
+    color: #b31e22;
+    font-size: 16px;
+}
+
+.box {
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 32px;
+}
+
+.glyphicon-search {
+    font-size: 20px;
+    color: white
+}
+
+.box1 {
+    padding: 0 20px;
+    background: #b31e22;
+    cursor: pointer;
+}
+
+.form-control {
+    border: 1px solid #b31e22;
+}
+
+.box2 a {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+    text-decoration: none;
+}
+
+.box2 a:hover {
+    color: #b31e22;
+} */
+
+
+/* .sydh {
+    width: 100%;
+    height: 40px;
+    background: #333;
+}
+
+.dhxx {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dhxx_1 {
+    width: 200px;
+    height: 40px;
+    background: #b31e22;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.dhxx_1_1 {
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.dhxx_2 {
+    padding: 0 10px;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    line-height: 40px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.dhxx_2:hover {
+    background: #666;
+}
+
+.hs {
+    color: #b31e22 !important;
+} */
+
+
+/* 第一种 */
+
+
+/* 第二种 */
+
+.ssl {
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.s_content1 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.s_content1_1 {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.s_content1_2 {
+    margin: 20px 0;
+    height: 60px;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    border-left: 1px solid #e0e0e0;
+    display: inline-block;
+}
+
+
+/* 第二种结束 */
+
+.foot {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.foot1 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foot1_1 {
+    width: 100%;
+    height: 88px;
+    padding: 24px 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot1_1 img {
+    width: 160px;
+    height: 40px;
+}
+
+.foot1_2 ul {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.foot1_2 ul {
+    padding: 25px 120px;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: space-around
+}
+
+.foot1_2 ul li a {
+    width: 220px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    color: #333;
+}
+
+.foot1_2 ul li a:nth-child(1) {
+    color: #666;
+    font-weight: bold;
+}
+
+.foot {
+    border-top: 1px solid #e0e0e0;
+    height: 116px;
+}
+
+.foots {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.foots ul {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.foots ul li {
+    margin: 10px 20px 0;
+}
+
+.foots ul li a {
+    color: #333;
+    display: block;
+    min-width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.foots p {
+    text-align: center;
+    color: #666;
+    line-height: 2em;
+}

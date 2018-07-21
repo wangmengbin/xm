@@ -1,0 +1,109 @@
+.fl{
+    display: flex;
+}
+.ddzx{
+    height: 37px;
+    color: #666;
+    line-height: 36px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+.sku1{
+    width: 530px;
+    font-size: 12px;
+    padding: 15px 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+.plxq{
+    width: 902px;height: 344px;padding: 20px 30px;border: 1px solid #e0e0e0;box-sizing: border-box
+}
+.plxq1{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+    font-size: 14px;
+}
+.sppl{
+    font-size: 18px;color: #b31e22; margin: 20px 0 10px;
+}
+.plxq2{
+    border: 1px solid #ddd;
+    width: 500px;
+    height: 217px;
+    flex-wrap: wrap;
+}
+.nmpj{
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.che{
+    position: absolute;left: 0px;top:3px;width: 16px;height: 16px;margin: 0 !important;
+}
+.tj{
+    display: inline-block;
+    color: #fff;
+    padding: 8px 24px;
+    text-decoration: none;
+    border: 1px solid #b31e22;
+    background-color: #b31e22;
+    margin-left: 308px;
+}
+.pjdj{
+    height:37px;width: 80px;line-height:37px;background-color: #f5f5f5;color: #666;text-align: center;font-size: 14px;border-right: 1px solid #ddd;border-bottom: 1px solid #ddd;box-sizing: border-box;
+}
+.hp{
+    width:139px;display: inline-block;text-align: center;height: 37px;line-height: 37px;
+}
+.pjsp{
+    width: 80px;height: 122px;background-color: #f5f5f5;color: #666;text-align: center;font-size: 14px;border-right: 1px solid #ddd;border-bottom: 1px solid #ddd;box-sizing: border-box;
+}
+.pjnr{
+    width: 418px;height: 122px;border: none;
+}
+.stp{
+    color: #666;
+    width: 80px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #f5f5f5;
+    height: 57px;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+    line-height: 57px;
+}
+.tjtp{
+    width: 418px;height: 57px;border-top: 1px solid #ddd;box-sizing: border-box;padding: 8px;
+}
+.tj1{
+    background: url(../images/icons/uploader_input.png) no-repeat center center #bfbfbf;width: 40px;height: 40px;
+}
+#demo2 img{
+    width: 40px;height: 40px;
+}
+.layui-upload-file{
+    opacity: 0;
+}
+.sc{
+    position: absolute;right: -4px;top: -4px;background: #b31e22;color: #fff;height: 15px;width: 15px;text-align: center;line-height: 15px;cursor: pointer;
+}
+.tp{
+    width: 38px;height: 38px;margin-right: 10px;position: relative;
+}
+.scan{
+    display: block;margin: 0 auto;width: 100px;height: 50px;background: firebrick;color: #fff;z-index: 3;text-align: center;
+}
+.sl{
+    color: #666;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.tj .abk{
+    color: #fff;
+}

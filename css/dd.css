@@ -1,0 +1,275 @@
+[v-cloak] {
+    display: none;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+.shengzi {
+    width: 1200px;
+    margin: 0 auto;
+    background: #f5f5f5;
+    height: 1058px;
+}
+.right {
+    width: 950px;
+}
+
+.covert {
+    width: 950px;
+    padding: 20px 24px 0px 24px;
+    box-sizing: border-box;
+    background: #ffffff;
+}
+
+.covert-ge {
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+    color: #666666;
+    font-size: 14px;
+}
+
+.covert-zi {
+    padding: 20px 0px 30px 20px;
+    box-sizing: border-box;
+}
+
+.covert-tou {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid #e0e0e0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.covert-tu {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.covert-liao {
+    padding-top: 20px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.covert-liao-q {
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.layui-input {
+    height: 30px;
+}
+
+.covert-que {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 82px;
+    line-height: 34px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background: #b31e22;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.covert-ji {
+
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.covert-xr-wz4 {
+    width: 96px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.covert-ji-w {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.covert-ji-w-q {
+    border: 1px solid #e0e0e0;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
+.covert-xr-wz7 {
+    padding: 4px 0px;
+    box-sizing: border-box;
+}
+
+.covert-xr-wz6 {
+    padding: 22px 0px 26px 0px;
+    box-sizing: border-box;
+    border-right: 1px solid #e0e0e0;
+    text-align: center;
+    width: 180px;
+    height: 125px;
+}
+
+.covert-xr-wz5 {
+    line-height: 56px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #b31e22;
+}
+
+.covert-xr-wz3 {
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.covert-xr-wz1 {
+    font-size: 16px;
+    color: #b31e22;
+    font-weight: bold;
+}
+
+.covert-xr-wz2 {
+    font-size: 12px;
+    color: #333333;
+    line-height: 18px;
+}
+
+.covert-xr-wz {
+    font-size: 10px;
+    color: #666666;
+    line-height: 18px;
+    padding-left: 24px;
+    box-sizing: border-box;
+}
+
+.covert-ji-dui {
+    font-size: 18px;
+    color: #b31e22;
+    line-height: 64px;
+}
+
+.covert-ji-e {
+    padding: 20px 0px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.covert-ji-e-q {
+    border: 1px solid #e0e0e0;
+    background: #f1f1f1;
+}
+
+.covert-xr {
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.covert-ji-r {
+    padding: 18px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.covert-ji-r-q {
+    line-height: 16px;
+    font-size: 14px;
+    color: #666666;
+    width: 300px;
+    height: 30px;
+    display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;
+    overflow: hidden;font-size: 14px;
+    overflow: hidden;
+}
+
+.covert-ji-r-w {
+    padding-top: 14px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #999999;
+}
+
+.covert-xr-w {
+    margin-left: 10px;
+    padding: 14px 0px;
+    box-sizing: border-box;
+}
+
+.covert-xr-w2 {
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+    background: #b31e22;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.feng {
+    padding: 14px 5px;
+    box-sizing: border-box;
+}
+
+.feng-q {
+    margin-left: 14px;
+    border: 1px solid #999999;
+    padding: 0px 14px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #666666;
+    line-height: 34px;
+    cursor: pointer;
+}
+
+.zi {
+    color: #b31e22;
+    border-bottom: 1px solid #b31e22;
+}
+
+.covert-ji-r:hover {
+    box-shadow: 0px 0px 20px 0px #b31e22;
+    transition: box-shadow 0.7s;
+}
+
+.covert-ji-r-t {
+    line-height: 60px;
+    width: 220px;
+    font-size: 14px;
+    color: #b31e22;
+    text-align: center;
+}
+
+.covert-ji-r-y {
+    line-height: 60px;
+    width: 228px;
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+.bianyan {
+    border: 1px solid #b31e22;
+}
+
+.bianyan2 {
+    bottom: 26px;
+    color: #b31e22;
+    background: #fff;
+    transition: bottom 1s;
+}
+.xuan {
+    color: #b31e22;
+}

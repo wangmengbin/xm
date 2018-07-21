@@ -1,0 +1,205 @@
+.table-bordered>thead>tr>td{
+	border: 0px;
+} 
+.chec{
+	margin-left: 12px;
+	width: 13px;
+	height: 13px;
+	margin-right: 5px
+}
+.pay_or{
+	diaplay:inline-block;
+	margin-left: 80px;
+	color: #b31e22;
+	font-size: 14px;
+}
+.pay_order_text{
+	font-size: 14xp;
+	color: #333;
+	text-align: center;
+	line-height: 40px;
+}
+.pay_order_list{
+	border-top: 1px solid #e0e0e0;
+	padding-top: 10px;	
+}
+.pay_order_text1{
+	font-size: 12px;
+	color: #333;
+	padding-left: 160px;
+	color: #666;
+
+
+}
+.pay_order_text2{
+	color: #b31e22;
+	padding-left:120px;
+	font-size: 12px
+	
+
+}
+.pay_order_text3{
+	height: 40px; 
+	margin-top: 12px;
+	font-size: 14px;
+
+	line-height: 25px;
+}
+.pay_order_text4{
+	font-size: 14px;
+	color: #b31e22;
+	
+	
+}
+.add_address{
+	font-size: 12px;
+	color: #b31e22;
+	padding-top: 18px;
+}
+.pay_order_btn{
+	margin-top: 12px!important;
+}
+ .payOrder_text{
+    width: 116px;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background-color: #b31e22;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.payOrder_bor{
+    border-bottom: 1px solid #e0e0e0;
+    margin-top: 12px;
+
+}
+.payOrder_cen{
+    color: #333;
+    font-size: 12px;
+    padding-top: 13px;
+}
+.payOrder_cn{
+	font-size: 12px; 
+	color: rgb(51, 51, 51); 
+	padding-left: 18px;
+	display: inline-block;
+	width: 300px;
+	height: 35px;
+	display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;
+    overflow: hidden;font-size: 12px;
+    overflow: hidden;
+}
+.payOrder_cent{
+	display:block;
+	padding-top:70px;
+	padding-left: 18px;
+	color: #999 
+}
+.payOrder_bot{
+    border: 1px solid #b31e22;
+
+}
+.payOrder_bot-btn{
+background-color: #b31e22;
+color: #fff;
+margin-top: 15px;
+
+}
+.table-bordered>thead>tr>th{
+   border: 0px solid #ddd;
+}
+.pay-mode__box {
+	padding: 18px;
+	margin-top: 10px;
+	border: 2px solid #b31e22;
+}
+.pay-mode__box .radio-line {
+	height: 40px;
+	padding: 0 15px;
+	margin: 5px auto;
+	line-height: 38px;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #ccc;
+}
+.pay-mode__box .pay-value {float: right;display: none}
+.pay-mode__box .radio-line.active {border: 1px solid #b31e22}
+.pay-mode__box .radio-line.active .pay-value {display: block}
+.pay-mode__box .radio-line .iconfont {margin-right: 32px}
+.shopcart-submit .btn {
+	width: 120px;
+	float: right;
+	margin: 10px 0;
+}
+#mask{
+	width: 100%;
+	height: 300%;
+	position: absolute;
+	top: 0;
+    z-index: 999;
+    opacity: 0.5;
+    background-color: #000;
+    transition: all .1s;
+}
+#Wechat{
+	width: 370px;
+	height: 440px;
+	position: fixed;
+	top: 0%;
+	left: 36%;
+	z-index: 9999;
+	background-color: #fff;
+	opacity: 0;
+}
+#Wechat_he{
+	width: 370px;
+	height: 60px;
+	background-color: #F5F5F5;
+}
+#Wechat_he span{
+	font-size: 18px;
+	line-height: 60px;
+	font-weight: 400;
+	color: #424242;
+	margin-left: 20px;
+	margin-right: 230px;
+}
+#Wechat_he i{
+	font-weight: bold;
+	font-style: normal;
+	cursor: pointer;
+	font-size: 18px;
+	color: #757575;
+	padding:7px 10px;
+	border-radius: 100%;
+	transition: all .3s;
+}
+#Wechat_he i:hover{
+    background-color: #E53935;
+    color: #fff;
+}
+#Wechat_bd{
+	text-align: center;
+	padding-top: 30px;
+}
+.msg{
+	margin-top: 14px;
+}
+.msg span{
+	color: #FF6700;
+	cursor: pointer;
+}
+#Wechat_pay{
+    position: fixed;
+    width: 370px;
+    height: 500px;
+    left: 13.8%;
+    top: 12%;
+    opacity: 0;
+	background: url(../images/icons/weinxin-pay.png) no-repeat;
+}
+.active1{border: 1px solid #b31e22;font-size: 16px;}
+.bb{display: block}

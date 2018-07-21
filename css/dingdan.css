@@ -1,0 +1,86 @@
+.ddzx{
+    height: 37px;
+    color: #666;
+    line-height: 36px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+.sydd{
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+.sydd ul{
+    height: 40px;
+    display: flex;
+    box-sizing: border-box;
+    border-bottom:1px solid #e0e0e0;
+}
+.sydd ul li{
+    text-align: center;
+    width: 110px;
+    padding: 10px 20px 0px 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor:pointer;
+}
+.ddxz{
+    color: #b31e22;
+    border-bottom:2px solid #b31e22;
+    padding: 10px 20px 10px 20px !important;
+}
+.sydd ul li:hover{
+    color: #b31e22
+}
+.spxx{
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+.spxx1{
+    height: 140px;
+    padding: 10px 8px;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 14px;
+    width: 374px;
+}
+.spxx1>p{
+    line-height: 30px;
+}
+.spxx1 img{
+    width: 78px;
+    height: 78px;
+    margin-right: 8px;
+}
+.dj{
+    width: 85px;
+    height: 140px;
+    font-size: 14px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.sfk{
+    width: 120px;
+    font-size: 14px;
+    height: 140px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.jycz{
+    line-height: 24px;margin: auto;color: #fff ;background:#b31e22;width: 80px;border-radius: 4px;margin-bottom: 4px;
+}
+.jycz .abk{
+    color: #fff ;
+}
+.pj{
+    line-height: 24px;margin: auto;color: #666;background:#fff;width: 80px;border-radius: 4px;margin-bottom: 4px;border:1px solid #bfbfbf;
+}
+.ac{
+    border-bottom: 1px solid #f5f5f5;
+}
+.ac:hover{
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(233,0,0,.3);
+}
