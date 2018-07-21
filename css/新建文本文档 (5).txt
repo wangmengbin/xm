@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link type="text/css" rel="stylesheet" href="style/common.css">
+</head>
+
+<body>
+<div id="box">
+<!--注册-->
+<div class="loginBox">
+	<ul class="loginList clearfix">
+    	<li class="hTxt">用户注册</li>
+        <li class="inputBox">
+        	<input type="text" class="inputs" id="add_user" v-model="zczh">
+        </li>
+        <li class="inputBox">
+        	<input type="password" class="inputs" id="add_pass" v-model="zcmm">
+        </li>
+        <li class="btns">
+            <input id="add_btn" type="button" class="reg" value=""  @click='show'/>
+        </li>
+        <li class="look"><a href="user_view.php" target="_blank">查看已注册用户</a></li>
+    </ul>
+</div>
+<!--登录-->
+<div class="loginBox">
+	<ul class="loginList clearfix">
+    	<li class="hTxt">用户登陆</li>
+        <li class="inputBox">
+        	<input type="text" class="inputs" id="login_user" v-model="dlzh">
+        </li>
+        <li class="inputBox">
+        	<input type="password" class="inputs" id="login_pass" v-model="dlmm">
+        </li>
+        <li class="btns">
+            <input id="login_btn" type="button" class="login" value="" @click='show1' />
+        </li>
+    </ul>
+</div>
+</div>
+<!-- <script type="text/javascript" src = 'ajax.js'></script> -->
+<script src="vue.js"></script>
+<script src="axios.min.js"></script>
+<script type="text/javascript">
+    // usage:  user.php?act=xxx&user=用户名&pass=密码;
+    //         act:
+    //             add——注册用户
+    //             login——登陆
+    
+    // return: {error: 0, desc: 文字描述信息}
+    //         error:
+    //             0   成功
+    //             1   失败——具体原因参考desc
+   
+    let vm = new Vue({
+        el:'#box',
+        data:{
+            zczh:'',
+            zcmm:'',
+            dlzh:'',
+            dlmm:''
+        },
+        methods: {
+            show(){
+                if(!vm.zczh||!vm.zcmm){
+                    return alert('请输入用户名或密码')
+                }
+                axios.get('user.php?act=add&user='+vm.zczh+'&pass='+vm.zcmm).then(
+                    function(str){
+                        vm.zczh=''
+                        vm.zcmm=''
+                        var json = eval('('+str.data+')')
+                        if(!json.error){
+                            alert(json.desc)
+                        }else{
+                            alert(json.desc)
+                        }
+                    }
+                )
+            },
+            show1(){
+                if(!vm.dlzh||!vm.dlmm){
+                    return alert('请输入用户名或密码')
+                }
+                axios.get('user.php?act=login&user='+vm.dlzh+'&pass='+vm.dlmm).then(
+                    function(str){
+                        vm.dlzh=''
+                        vm.dlmm=''
+                        var json = eval('('+str.data+')')
+                        if(!json.error){
+                            window.open('http://localhost/weibo_msg/vue2.html')
+                        }else{
+                            alert(json.desc)
+                        }
+                    }
+                )
+            }
+        }
+    })
+</script>
+</body>
+</html>
